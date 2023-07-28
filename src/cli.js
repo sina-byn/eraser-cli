@@ -1,5 +1,6 @@
 const arg = require('arg');
 const chalk = require('chalk');
+const { erase } = require('comment-eraser');
 
 const options = ['-c', '--config'];
 
@@ -37,7 +38,7 @@ const cli = args => {
   const { configPath = null } = parseArgsIntoOptions(args);
 
   if (!configPath) return;
-  console.log(configPath);
+  erase(configPath);
 };
 
 module.exports = cli;
