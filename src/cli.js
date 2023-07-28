@@ -11,6 +11,9 @@ const showError = (message, option) => {
 
 const parseArgsIntoOptions = rawArgs => {
   rawArgs = rawArgs.slice(2);
+
+  if (rawArgs.length === 0) return { configPath: 'eraser.config.json' };
+
   const lastArg = rawArgs[rawArgs.length - 1];
 
   if (options.includes(lastArg)) {
@@ -30,7 +33,7 @@ const parseArgsIntoOptions = rawArgs => {
   }
 
   return {
-    configPath: args['--config'] || 'eraser.config.json',
+    configPath: args['--config'],
   };
 };
 
