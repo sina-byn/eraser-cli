@@ -1,7 +1,7 @@
 {
   "name": "eraser-cli",
   "version": "1.0.3",
-  "description": "",
+  "description": "the cli tool for the comment-eraser package - easily integrate the comment-eraser into your build process or install it globally and use it wherever you want",
   "main": "src/cli.js",
   "bin": {
     "eraser-cli": "bin/eraser-cli"
@@ -9,15 +9,35 @@
   "publishConfig": {
     "access": "public"
   },
+  "author": {
+    "name": "Sina Bayandorian",
+    "email": "sina.sina.bayan@protonmail.com",
+    "url": "https://portfolio-sina-byn.vercel.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sina-byn/eraser-cli"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "arg": "^5.0.2",
     "chalk": "^4.1.2",
     "comment-eraser": "^3.0.1"
   },
-  "keywords": []
+  "keywords": [
+    "cli",
+    "nodejs",
+    "javascript",
+    "npm-package",
+    "code-cleanup",
+    "comment-eraser",
+    "comment-remover"
+  ],
+  "bugs": {
+    "url": "https://github.com/sina-byn/eraser-cli/issues",
+    "email": "sina.sina.bayan@protonmail.com"
+  }
 }
