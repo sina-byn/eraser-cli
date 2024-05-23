@@ -1,4 +1,4 @@
-# eraser-cli [![NPM version](https://img.shields.io/npm/v/eraser-cli.svg?style=flat)](https://www.npmjs.com/package/eraser-cli) [![NPM monthly downloads](https://img.shields.io/npm/dm/eraser-cli.svg?style=flat)](https://npmjs.org/package/eraser-cli) [![NPM total downloads](https://img.shields.io/npm/dt/eraser-cli.svg?style=flat)](https://npmjs.org/package/eraser-cli) 
+# DEPRECATED - eraser-cli [![NPM version](https://img.shields.io/npm/v/eraser-cli.svg?style=flat)](https://www.npmjs.com/package/eraser-cli) [![NPM monthly downloads](https://img.shields.io/npm/dm/eraser-cli.svg?style=flat)](https://npmjs.org/package/eraser-cli) [![NPM total downloads](https://img.shields.io/npm/dt/eraser-cli.svg?style=flat)](https://npmjs.org/package/eraser-cli) 
 
 > the cli tool for the [comment-eraser](https://www.npmjs.com/package/comment-eraser) package - easily integrate the comment-eraser into your build process or install it globally and use it wherever you want
 
